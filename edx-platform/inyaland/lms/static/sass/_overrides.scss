@@ -8,7 +8,7 @@ $main-color: #00bcd4;
 $hover-color: #f0f0f0;
 $secondary-color: #007888;
 $screen-sm-max: 600px;
-
+$courseware-header-image:   url("../images/course_banner.jpg");
 .btn-default{
   box-sizing: border-box !important;
   transition: color 0.25s ease-in-out,background 0.25s ease-in-out,box-shadow 0.25s ease-in-out !important;
@@ -514,4 +514,13 @@ color: $main_color;
     max-width: 500px;
     margin: auto;
     display: block;
+}
+
+.find-courses header.search {
+   background-image: $courseware-header-image;
+   max-width: 100%;
+}
+h2, .home > header .title > .heading-group p, section.outside-app h1{
+color: white;
+font-size: 30px;
 }
