@@ -18,9 +18,9 @@ from openedx.core.djangolib.markup import HTML, Text
                 ${homepage_overlay_html | n, decode.utf8}
               % else:
                   ## Translators: 'Open edX' is a registered trademark, please keep this untranslated. See http://open.edx.org for more information.
-                  <h1>${Text(_(u"Welcome to the Mandalar Degree College eLearning Platform"))}</h1>
+                  <h1>${Text(_(u"Welcome to the National Management Degree College eLearning Platform"))}</h1>
                   ## Translators: 'Open edX' is a registered trademark, please keep this untranslated. See http://open.edx.org for more information.
-                  <p>${_("The Mandalar Degree College eLearning Platform is a learning initiative from Mandalar Degree College of Myanmar.")}</p>
+                  <p>${_("The National Management Degree College eLearning Platform is a learning initiative from National Management Degree College of Myanmar.")}</p>
               % endif
             </div>
             % if settings.FEATURES.get('ENABLE_COURSE_DISCOVERY'):
